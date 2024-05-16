@@ -22,12 +22,7 @@ export default function App() {
       return;
     }
 
-    const destination = await Location.watchPositionAsync({
-      accuracy: Location.Accuracy.High,
-      timeInterval: 500,
-      distanceInterval: 1,
-    }, (location) => {
-      console.log(location);
+    const sendLocation=(location, busNumber, direction)=> {
       fetch('http://localhost:3000/location', {
         method: 'POST',
         headers: {
@@ -39,13 +34,20 @@ export default function App() {
             longitude: location.coords.longitude,
           },
           bus:{
-            id: selectedBus,
-            direction: selectedDirection,
+            line_number: busNumber,
+            direction: direction,
           }
         }),
       });
+    }
+    const destination = await Location.watchPositionAsync({
+      accuracy: Location.Accuracy.High,
+      timeInterval: 500,
+      distanceInterval: 1,
+    }, (location) => {
+      console.log(location);
+      sendLocation(location, selectedBus, selectedDirection);
     });
-
     setRoute(destination);
     setIsTracking(true);
   };
