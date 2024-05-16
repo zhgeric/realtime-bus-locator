@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Button,Text, Pressable } from 'react-native';
+import { StyleSheet, View, Button, Text, Pressable } from 'react-native';
 import * as Location from 'expo-location';
 import { Picker } from '@react-native-picker/picker';
 
@@ -54,11 +54,8 @@ export default function App() {
       <Picker
         style={styles.picker}
         selectedValue={selectedBus}
-        onValueChange={(itemValue) => {
-          setSelectedBus(itemValue);
-          setSelectedDirection(null);
-        }}
-      >
+        onValueChange={isTracking ? null : (itemValue) => setSelectedBus(itemValue)}
+        >
         <Picker.Item label="Select a bus" value={null} />
         {Object.keys(buses).map((bus) => (
           <Picker.Item key={bus} label={bus} value={bus} />
@@ -67,11 +64,11 @@ export default function App() {
 
       {selectedBus && (
         <Picker
+
           style={styles.picker}
           selectedValue={selectedDirection}
-          onValueChange={(itemValue) => setSelectedDirection(itemValue)}
-          disabled={!selectedBus}
-        >
+          onValueChange={isTracking ? null : (itemValue) => setSelectedDirection(itemValue)}
+          >
           <Picker.Item label="Select a direction" value={null} />
           {buses[selectedBus].map((direction, index) => (
             <Picker.Item key={index} label={direction} value={direction} />
