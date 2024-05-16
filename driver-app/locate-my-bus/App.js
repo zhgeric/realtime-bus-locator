@@ -1,20 +1,36 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect } from 'react';
+import { Text, View } from 'react-native';
+import * as Location from 'expo-location';
 
 export default function App() {
+  useEffect(() => {
+    (async () => {
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== 'granted') {
+        console.error('Permissiondenied');
+        return;
+      }
+
+      Location.watchPositionAsync({
+        accuracy: Location.Accuracy.High,
+        timeInterval: 500,
+        distanceInterval: 1,
+      }, (location) => {
+        console.log(location);
+        fetch('http://localhost:3000/location', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(location),
+        });
+      });
+    })();
+  }, []);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <Text>app</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
