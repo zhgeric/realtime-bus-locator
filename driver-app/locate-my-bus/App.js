@@ -33,7 +33,16 @@ export default function App() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(location),
+        body: JSON.stringify({
+          location: {
+            latitude: location.coords.latitude,
+            longitude: location.coords.longitude,
+          },
+          bus:{
+            id: selectedBus,
+            direction: selectedDirection,
+          }
+        }),
       });
     });
 
@@ -52,9 +61,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Picker
+        enabled={!isTracking}
         style={styles.picker}
         selectedValue={selectedBus}
-        onValueChange={isTracking ? null : (itemValue) => setSelectedBus(itemValue)}
+        onValueChange={(itemValue) => setSelectedBus(itemValue)}
         >
         <Picker.Item label="Select a bus" value={null} />
         {Object.keys(buses).map((bus) => (
@@ -64,10 +74,10 @@ export default function App() {
 
       {selectedBus && (
         <Picker
-
+          enabled={!isTracking}
           style={styles.picker}
           selectedValue={selectedDirection}
-          onValueChange={isTracking ? null : (itemValue) => setSelectedDirection(itemValue)}
+          onValueChange={(itemValue) => setSelectedDirection(itemValue)}
           >
           <Picker.Item label="Select a direction" value={null} />
           {buses[selectedBus].map((direction, index) => (
