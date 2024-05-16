@@ -5,7 +5,7 @@ import { Picker } from '@react-native-picker/picker';
 
 export default function App() {
   const [isTracking, setIsTracking] = useState(false);
-  const [locationSubscription, setLocationSubscription] = useState(null);
+  const [route, setRoute] = useState(null);
   const [selectedBus, setSelectedBus] = useState(null);
   const [selectedDirection, setSelectedDirection] = useState(null);
 
@@ -22,7 +22,7 @@ export default function App() {
       return;
     }
 
-    const subscription = await Location.watchPositionAsync({
+    const destination = await Location.watchPositionAsync({
       accuracy: Location.Accuracy.High,
       timeInterval: 500,
       distanceInterval: 1,
@@ -37,14 +37,14 @@ export default function App() {
       });
     });
 
-    setLocationSubscription(subscription);
+    setRoute(destination);
     setIsTracking(true);
   };
 
   const stopTracking = () => {
-    if (locationSubscription) {
-      locationSubscription.remove();
-      setLocationSubscription(null);
+    if (route) {
+      route.remove();
+      setRoute(null);
     }
     setIsTracking(false);
   };
