@@ -1,0 +1,10 @@
+{
+  "location": {
+    "longitude":"11,00099090",
+    "attitude":"12,00002222"
+  },
+  "bus": {
+    "direction":"terminus",
+    "line_number":"12AEF"
+  }
+}
