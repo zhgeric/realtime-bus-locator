@@ -1,12 +1,12 @@
 package com.realtime;
 
+import org.apache.http.client.HttpClient;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 
 import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 
@@ -17,12 +17,16 @@ public class GeolocationConsumer {
     private KafkaConsumer<String, String> consumer;
     private HttpClient httpClient;
     private String topic = "geolocation";
+    String groupId = "geolocation-group";
+    String bootstrapServers = System.getenv("KAFKA_BOOTSTRAP_SERVERS");
 
     public GeolocationConsumer(HttpClient httpClient) {
         // Kafka consumer configuration settings
         Properties props = new Properties();
-        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9093"); // Update with your Kafka broker address
-        props.put(ConsumerConfig.GROUP_ID_CONFIG, "geolocation-group");
+        //props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9093");
+        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
+        // props.put(ConsumerConfig.GROUP_ID_CONFIG, "geolocation-group");
+        props.put(ConsumerConfig.GROUP_ID_CONFIG, groupId);
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringDeserializer");
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringDeserializer");
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");

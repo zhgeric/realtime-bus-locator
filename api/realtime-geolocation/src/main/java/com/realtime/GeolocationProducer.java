@@ -1,25 +1,24 @@
 package com.realtime;
 
-import static spark.Spark.awaitInitialization;
-
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 
-import static spark.Spark.port;
-import static spark.Spark.post;
+import static spark.Spark.*;
 
 public class GeolocationProducer {
     private KafkaProducer<String, String> producer;
     private String topic = "geolocation";
+    String bootstrapServers = System.getenv("KAFKA_BOOTSTRAP_SERVERS");
 
     public GeolocationProducer() {
         // Configure Kafka Producer
-        String bootstrapServers = "localhost:9093";
+        //String bootstrapServers = "localhost:9093";
         Properties properties = new Properties();
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
+
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 

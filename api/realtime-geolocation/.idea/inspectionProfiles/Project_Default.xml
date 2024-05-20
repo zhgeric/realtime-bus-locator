@@ -1,0 +1,47 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,java.io.PrintStream,printf,org.apache.http.impl.client.HttpClients,createDefault" />
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="realtime-geolocation" />
+          <option value="realtime-geolocation" />
+          <option value="realtime-geolocation" />
+          <option value="realtime-geolocation" />
+          <option value="realtime-geolocation" />
+          <option value="realtime-geolocation" />
+          <option value="realtime-geolocation" />
+          <option value="realtime-geolocation" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="commons-codec:commons-codec:1.11" />
+          <option value="org.eclipse.jetty:jetty-client:9.4.31.v20200723" />
+          <option value="org.xerial.snappy:snappy-java:1.1.8.4" />
+          <option value="org.eclipse.jetty:jetty-http:9.4.31.v20200723" />
+          <option value="org.eclipse.jetty:jetty-io:9.4.31.v20200723" />
+          <option value="org.eclipse.jetty:jetty-security:9.4.31.v20200723" />
+          <option value="org.eclipse.jetty:jetty-server:9.4.31.v20200723" />
+          <option value="org.eclipse.jetty:jetty-util:9.4.31.v20200723" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="In progress" />
+          <option value="Fixed in branch" />
+          <option value="Other" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
