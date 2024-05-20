@@ -8,6 +8,14 @@ html {
 	height: 100%;
 }
 
+#start {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	font-size: 40px;
+	z-index: 1000;
+}
+
 .leaflet-popup-content-wrapper {
 }
 
