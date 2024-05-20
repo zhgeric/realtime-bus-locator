@@ -26,14 +26,16 @@ This application consists of a Kafka producer and consumer designed to handle ge
 
 2.  **Run the GeolocationApp:**
 3.  **Send a request to the Producer to handle it:**
-   ```sh
-   curl -X POST http://localhost:8080/geolocation -H "Content-Type: application/json" -d '{
-  "location": {
-    "longitude": "11,00099090",
-    "attitude": "12,00002222"
-  },
-  "bus": {
+    ```sh
+      curl -X POST http://localhost:8080/geolocation -H "Content-Type: application/json" -d '{
+     "location": {
+       "longitude": "11,00099090",
+       "attitude": "12,00002222"
+     },"bus": {
     "direction": "terminus",
     "line_number": "12AEF"
-  }
-}'
+        }
+      }'
+![Alt text](images/send-request.png)
+
+![Alt text](images/kafka-topic.png)
