@@ -3,7 +3,7 @@ Keiken Hackaton Mai 2024 project
 
 # Geolocation Producer-Consumer App
 
-This application consists of a Kafka producer and consumer designed to handle geolocation data. The producer receives geolocation information via HTTP and sends it to a Kafka topic. The consumer reads messages from the Kafka topic and sends them to another service.
+This application consists of a Kafka producer and consumer designed to handle geolocation data. The producer receives geolocation information via web socket and sends it to a Kafka topic. The consumer reads messages from the Kafka topic and sends the message in the channel location to all other registred svc
 
 ## Table of Contents
 
@@ -12,10 +12,8 @@ This application consists of a Kafka producer and consumer designed to handle ge
 
 ## Prerequisites
 
-- Java Development Kit (JDK) 8 or higher
-- Apache Kafka and Zookeeper
-- Maven
-- curl (for testing HTTP endpoints)
+- Java Development Kit (JDK) 11
+- docker
 
 ## Setup and Installation
 
@@ -29,14 +27,8 @@ This application consists of a Kafka producer and consumer designed to handle ge
       docker-compose up -d
 3.  **Send a request to the Producer to handle it:**
     ```sh
-      curl -X POST http://localhost:8080/geolocation -H "Content-Type: application/json" -d '{
-     "location": {
-       "longitude": "11,00099090",
-       "attitude": "12,00002222"
-     },"bus": {
-    "direction": "terminus",
-    "line_number": "12AEF"
-        }
+      wscat -c ws://localhost:8080/geolocation -x '{"longitude": "11.00099090", "latitude": "12.00002222", "line_number": "12AEF",          "direction": "terminus", "bus": {}, "location": {}}'
+
       }'
 ![Alt text](images/send-request.png)
 
