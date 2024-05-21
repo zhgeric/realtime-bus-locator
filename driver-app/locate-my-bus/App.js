@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 import { StyleSheet, View, Button, Text, Pressable } from 'react-native';
 import * as Location from 'expo-location';
 import { Picker } from '@react-native-picker/picker';
+import io from 'socket.io-client';
 
 export default function App() {
   const [isTracking, setIsTracking] = useState(false);
   const [route, setRoute] = useState(null);
   const [selectedBus, setSelectedBus] = useState(null);
   const [selectedDirection, setSelectedDirection] = useState(null);
+
+  const socket = io('http://10.0.2.2:8080');
 
   const buses = {
     "128": ["Porte d'Orléans", "Robinson RER"],
@@ -22,31 +25,26 @@ export default function App() {
       return;
     }
 
-    const sendLocation=(location, busNumber, direction)=> {
-      fetch('http://localhost:3000/location', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+    const sendLocation = (location) => {
+      socket.emit('geolocation', {
+        location: {
+          latitude: location.coords.latitude,
+          longitude: location.coords.longitude,
         },
-        body: JSON.stringify({
-          location: {
-            latitude: location.coords.latitude,
-            longitude: location.coords.longitude,
-          },
-          bus:{
-            line_number: busNumber,
-            direction: direction,
-          }
-        }),
+        bus: {
+          line_number: selectedBus,
+          direction: selectedDirection,
+        }
       });
-    }
+    };
+
     const destination = await Location.watchPositionAsync({
       accuracy: Location.Accuracy.High,
       timeInterval: 500,
       distanceInterval: 1,
     }, (location) => {
       console.log(location);
-      sendLocation(location, selectedBus, selectedDirection);
+      sendLocation(location);
     });
     setRoute(destination);
     setIsTracking(true);
@@ -67,7 +65,7 @@ export default function App() {
         style={styles.picker}
         selectedValue={selectedBus}
         onValueChange={(itemValue) => setSelectedBus(itemValue)}
-        >
+      >
         <Picker.Item label="Select a bus" value={null} />
         {Object.keys(buses).map((bus) => (
           <Picker.Item key={bus} label={bus} value={bus} />
@@ -80,7 +78,7 @@ export default function App() {
           style={styles.picker}
           selectedValue={selectedDirection}
           onValueChange={(itemValue) => setSelectedDirection(itemValue)}
-          >
+        >
           <Picker.Item label="Select a direction" value={null} />
           {buses[selectedBus].map((direction, index) => (
             <Picker.Item key={index} label={direction} value={direction} />
