@@ -45,8 +45,9 @@ export default function App() {
 
 	const buses = {
 		128: ["Porte d'Orléans", "Robinson RER"],
-		188: ["Bagneux - Rosenberg", "Porte d'Orléans"],
+		188: ["Rosenberg", "Porte d'Orléans"],
 		388: ["Bourg-la-Reine RER", "Porte d'Orléans"],
+		391: ["Gare de Vanves–Malakoff", "Pont Royal RER (Bagneux)"],
 	};
 
 	const startTracking = async () => {
@@ -94,12 +95,6 @@ export default function App() {
 
 	return (
 		<View style={styles.container}>
-			<View>
-				<Text>
-					Status: {isConnected ? "connected" : "disconnected"}
-				</Text>
-				<Text>Transport: {transport}</Text>
-			</View>
 			<Picker
 				enabled={!isTracking}
 				style={styles.picker}
@@ -145,6 +140,31 @@ export default function App() {
 					<Text style={styles.buttonText}>Start Tracking</Text>
 				</Pressable>
 			)}
+			<View
+				style={{
+					position: "absolute",
+					bottom: 5,
+					right: 5,
+					flexDirection: "row",
+					justifyContent: "center",
+					alignItems: "center",
+					gap: 5,
+				}}
+			>
+				<Text
+					style={[
+						isConnected
+							? { backgroundColor: "green" }
+							: { backgroundColor: "red" },
+						{ height: 10, width: 10, borderRadius: 50 },
+					]}
+				>
+					.
+				</Text>
+				<Text style={{ lineHeight: 17 }}>
+					{isConnected ? "Connected" : "Disconnected"}
+				</Text>
+			</View>
 		</View>
 	);
 }
