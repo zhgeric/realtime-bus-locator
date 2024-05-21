@@ -28,8 +28,6 @@ This application consists of a Kafka producer and consumer designed to handle ge
 3.  **Send a request to the Producer to handle it:**
     ```sh
       wscat -c ws://localhost:8080/geolocation -x '{"longitude": "11.00099090", "latitude": "12.00002222", "line_number": "12AEF",          "direction": "terminus", "bus": {}, "location": {}}'
-
-      }'
 ![Alt text](images/send-request.png)
 
 ![Alt text](images/kafka-topic.png)
