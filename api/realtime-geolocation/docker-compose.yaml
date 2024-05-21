@@ -32,14 +32,10 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
-      - "3000:3000"
     environment:
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     depends_on:
       - kafka
-
-
-
 volumes:
   kafka-volume:
   zookeeper-volume:
