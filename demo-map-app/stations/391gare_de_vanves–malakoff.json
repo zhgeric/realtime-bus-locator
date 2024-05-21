@@ -1,0 +1,154 @@
+[
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3009667, 48.7996139] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Pluchet" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2994669, 48.8123287] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Maison Blanche" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2920438, 48.8188403] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Gare de Vanves-Malakoff" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3086281, 48.785012] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Clemenceau" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3007502, 48.7979469] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Rue Froide" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2943854, 48.8171331] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Paul Bert" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.296545, 48.8150989] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Rue Étienne Dolet" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3041299, 48.791514] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Sentier des Brugnauts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.306606, 48.7932145] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Porte-d'en-Bas" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3065573, 48.7946592] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Mathurins" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3004201, 48.7958421] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Dampierre" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3104465, 48.7890189] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Frères Lumière" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3107211, 48.7858041] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Les Bas Coquarts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3147058, 48.7892627] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Port Galand" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3045962, 48.7878927] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Cuverons" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3041834, 48.7895533] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Fontaine Gueffier" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3207611, 48.7938063] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Bagneux - Pont Royal RER" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3037299, 48.785316] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Les Blagis" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3191494, 48.7897117] },
+		"busses": [
+			{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
+		],
+		"properties": { "name": "Cité Jardins" }
+	}
+]

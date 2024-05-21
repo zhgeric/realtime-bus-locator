@@ -22,6 +22,7 @@
 				"coordinates": [2.2813706, 48.7795867]
 			},
 			"busses": [
+				{ "direction": "Robinson RER", "line_number": "128" },
 				{ "direction": "Porte D'Orléans", "line_number": "128" }
 			],
 			"properties": { "name": "Robinson RER" }
@@ -304,7 +305,15 @@
 				"type": "Point",
 				"coordinates": [2.3004567, 48.79738]
 			},
-			"busses": [{ "direction": "Robinson RER", "line_number": "128" }],
+			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
+				{ "direction": "Robinson RER", "line_number": "128" },
+				{ "direction": "Porte d'Orléans", "line_number": "188" },
+				{ "direction": "Porte d'Orléans", "line_number": "388" }
+			],
 			"properties": { "name": "Rue Froide" }
 		},
 		{
@@ -398,15 +407,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.2813706, 48.7795867]
-			},
-			"busses": [{ "direction": "Robinson RER", "line_number": "128" }],
-			"properties": { "name": "Robinson RER" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3246572, 48.8217725]
 			},
 			"busses": [{ "direction": "Robinson RER", "line_number": "128" }],
@@ -418,19 +418,11 @@
 				"type": "Point",
 				"coordinates": [2.3001464, 48.7952002]
 			},
-			"busses": [{ "direction": "Robinson RER", "line_number": "128" }],
-			"properties": { "name": "Dampierre" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3004567, 48.79738]
-			},
 			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "188" }
+				{ "direction": "Porte d'Orléans", "line_number": "188" },
+				{ "direction": "Robinson RER", "line_number": "128" }
 			],
-			"properties": { "name": "Rue Froide" }
+			"properties": { "name": "Dampierre" }
 		},
 		{
 			"type": "Feature",
@@ -483,6 +475,7 @@
 				"coordinates": [2.3176176, 48.7980834]
 			},
 			"busses": [
+				{ "direction": "Porte d'Orléans", "line_number": "388" },
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Pasteur - Meuniers" }
@@ -505,6 +498,7 @@
 				"coordinates": [2.3026384, 48.7975695]
 			},
 			"busses": [
+				{ "direction": "Rosenberg", "line_number": "188" },
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Rosenberg" }
@@ -516,6 +510,7 @@
 				"coordinates": [2.3181137, 48.8000343]
 			},
 			"busses": [
+				{ "direction": "Porte d'Orléans", "line_number": "388" },
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Cosson - Longuet" }
@@ -527,6 +522,10 @@
 				"coordinates": [2.3086293, 48.7848832]
 			},
 			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Clemenceau" }
@@ -538,6 +537,10 @@
 				"coordinates": [2.3041954, 48.7851558]
 			},
 			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Les Blagis" }
@@ -549,7 +552,12 @@
 				"coordinates": [2.3157572, 48.7927217]
 			},
 			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "188" }
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
+				{ "direction": "Porte d'Orléans", "line_number": "188" },
+				{ "direction": "Porte d'Orléans", "line_number": "388" }
 			],
 			"properties": { "name": "Les Blains" }
 		},
@@ -560,6 +568,7 @@
 				"coordinates": [2.3172817, 48.7961415]
 			},
 			"busses": [
+				{ "direction": "Porte d'Orléans", "line_number": "388" },
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Albert Petit" }
@@ -571,7 +580,12 @@
 				"coordinates": [2.3144403, 48.7899837]
 			},
 			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "188" }
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
+				{ "direction": "Porte d'Orléans", "line_number": "188" },
+				{ "direction": "Porte d'Orléans", "line_number": "388" }
 			],
 			"properties": { "name": "Port Galand" }
 		},
@@ -626,6 +640,7 @@
 				"coordinates": [2.318742, 48.8018183]
 			},
 			"busses": [
+				{ "direction": "Porte d'Orléans", "line_number": "388" },
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Martyrs de Châteaubriant - Métro" }
@@ -634,25 +649,14 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3001464, 48.7952002]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "188" }
-			],
-			"properties": { "name": "Dampierre" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3015464, 48.7956175]
 			},
 			"busses": [
+				{ "direction": "Rosenberg", "line_number": "188" },
 				{ "direction": "Porte d'Orléans", "line_number": "188" }
 			],
 			"properties": { "name": "Dampierre" }
 		},
-
 		{
 			"type": "Feature",
 			"geometry": {
@@ -693,18 +697,12 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3026384, 48.7975695]
-			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
-			"properties": { "name": "Rosenberg" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3179866, 48.8004338]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{ "direction": "Bourg-la-Reine RER", "line_number": "388" },
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Cosson - Longuet" }
 		},
 		{
@@ -722,7 +720,13 @@
 				"type": "Point",
 				"coordinates": [2.3086281, 48.785012]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{
+					"direction": "Gare de Vanves–Malakoff",
+					"line_number": "391"
+				},
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Clemenceau" }
 		},
 		{
@@ -731,7 +735,14 @@
 				"type": "Point",
 				"coordinates": [2.3107211, 48.7858041]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{
+					"direction": "Gare de Vanves–Malakoff",
+					"line_number": "391"
+				},
+				{ "direction": "Rosenberg", "line_number": "188" },
+				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
+			],
 			"properties": { "name": "Les Bas Coquarts" }
 		},
 		{
@@ -740,7 +751,10 @@
 				"type": "Point",
 				"coordinates": [2.3169332, 48.795648]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{ "direction": "Bourg-la-Reine RER", "line_number": "388" },
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Albert Petit" }
 		},
 		{
@@ -749,7 +763,10 @@
 				"type": "Point",
 				"coordinates": [2.3154635, 48.7926157]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{ "direction": "Bourg-la-Reine RER", "line_number": "388" },
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Les Blains" }
 		},
 		{
@@ -758,7 +775,10 @@
 				"type": "Point",
 				"coordinates": [2.3172604, 48.7974557]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{ "direction": "Bourg-la-Reine RER", "line_number": "388" },
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Pasteur - Meuniers" }
 		},
 		{
@@ -767,7 +787,10 @@
 				"type": "Point",
 				"coordinates": [2.3141604, 48.7898595]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{ "direction": "Bourg-la-Reine RER", "line_number": "388" },
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Port Galand" }
 		},
 		{
@@ -812,7 +835,13 @@
 				"type": "Point",
 				"coordinates": [2.3037299, 48.785316]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{
+					"direction": "Gare de Vanves–Malakoff",
+					"line_number": "391"
+				},
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Les Blagis" }
 		},
 		{
@@ -821,17 +850,11 @@
 				"type": "Point",
 				"coordinates": [2.3184934, 48.8017565]
 			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+			"busses": [
+				{ "direction": "Bourg-la-Reine RER", "line_number": "388" },
+				{ "direction": "Rosenberg", "line_number": "188" }
+			],
 			"properties": { "name": "Martyrs de Châteaubriant - Métro" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3015464, 48.7956175]
-			},
-			"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
-			"properties": { "name": "Dampierre" }
 		},
 		{
 			"type": "Feature",
@@ -917,6 +940,10 @@
 				"coordinates": [2.2980425, 48.8063274]
 			},
 			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
 				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
 			],
 			"properties": { "name": "Pierre Semard" }
@@ -936,17 +963,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3179866, 48.8004338]
-			},
-			"busses": [
-				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
-			],
-			"properties": { "name": "Cosson - Longuet" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3127081, 48.7843336]
 			},
 			"busses": [
@@ -961,42 +977,13 @@
 				"coordinates": [2.3104465, 48.7890189]
 			},
 			"busses": [
+				{
+					"direction": "Gare de Vanves–Malakoff",
+					"line_number": "391"
+				},
 				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
 			],
 			"properties": { "name": "Frères Lumière" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3107211, 48.7858041]
-			},
-			"busses": [
-				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
-			],
-			"properties": { "name": "Les Bas Coquarts" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3169332, 48.795648]
-			},
-			"busses": [
-				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
-			],
-			"properties": { "name": "Albert Petit" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3154635, 48.7926157]
-			},
-			"busses": [
-				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
-			],
-			"properties": { "name": "Les Blains" }
 		},
 		{
 			"type": "Feature",
@@ -1008,28 +995,6 @@
 				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
 			],
 			"properties": { "name": "Rosenberg" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3172604, 48.7974557]
-			},
-			"busses": [
-				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
-			],
-			"properties": { "name": "Pasteur - Meuniers" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3141604, 48.7898595]
-			},
-			"busses": [
-				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
-			],
-			"properties": { "name": "Port Galand" }
 		},
 		{
 			"type": "Feature",
@@ -1112,17 +1077,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3184934, 48.8017565]
-			},
-			"busses": [
-				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
-			],
-			"properties": { "name": "Martyrs de Châteaubriant - Métro" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3079436, 48.7978694]
 			},
 			"busses": [
@@ -1140,28 +1094,6 @@
 				{ "direction": "Bourg-la-Reine RER", "line_number": "388" }
 			],
 			"properties": { "name": "Bourg-la-Reine RER" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3004567, 48.79738]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "388" }
-			],
-			"properties": { "name": "Rue Froide" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3176176, 48.7980834]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "388" }
-			],
-			"properties": { "name": "Pasteur - Meuniers" }
 		},
 		{
 			"type": "Feature",
@@ -1299,31 +1231,13 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3181137, 48.8000343]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "388" }
-			],
-			"properties": { "name": "Cosson - Longuet" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3157572, 48.7927217]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "388" }
-			],
-			"properties": { "name": "Les Blains" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3111465, 48.7864688]
 			},
 			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
 				{ "direction": "Porte d'Orléans", "line_number": "388" }
 			],
 			"properties": { "name": "Les Bas Coquarts" }
@@ -1332,34 +1246,16 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3172817, 48.7961415]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "388" }
-			],
-			"properties": { "name": "Albert Petit" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3104545, 48.7885629]
 			},
 			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
 				{ "direction": "Porte d'Orléans", "line_number": "388" }
 			],
 			"properties": { "name": "Frères Lumière" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3144403, 48.7899837]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "388" }
-			],
-			"properties": { "name": "Port Galand" }
 		},
 		{
 			"type": "Feature",
@@ -1442,17 +1338,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.318742, 48.8018183]
-			},
-			"busses": [
-				{ "direction": "Porte d'Orléans", "line_number": "388" }
-			],
-			"properties": { "name": "Martyrs de Châteaubriant - Métro" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3009667, 48.7996139]
 			},
 			"busses": [
@@ -1478,20 +1363,13 @@
 				"coordinates": [2.2920438, 48.8188403]
 			},
 			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
 				{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
 			],
 			"properties": { "name": "Gare de Vanves-Malakoff" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3086281, 48.785012]
-			},
-			"busses": [
-				{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
-			],
-			"properties": { "name": "Clemenceau" }
 		},
 		{
 			"type": "Feature",
@@ -1574,28 +1452,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3104465, 48.7890189]
-			},
-			"busses": [
-				{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
-			],
-			"properties": { "name": "Frères Lumière" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3107211, 48.7858041]
-			},
-			"busses": [
-				{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
-			],
-			"properties": { "name": "Les Bas Coquarts" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3147058, 48.7892627]
 			},
 			"busses": [
@@ -1632,20 +1488,13 @@
 				"coordinates": [2.3207611, 48.7938063]
 			},
 			"busses": [
+				{
+					"direction": "Pont Royal RER (Bagneux)",
+					"line_number": "391"
+				},
 				{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
 			],
 			"properties": { "name": "Bagneux - Pont Royal RER" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3037299, 48.785316]
-			},
-			"busses": [
-				{ "direction": "Gare de Vanves–Malakoff", "line_number": "391" }
-			],
-			"properties": { "name": "Les Blagis" }
 		},
 		{
 			"type": "Feature",
@@ -1662,20 +1511,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3004567, 48.79738]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Rue Froide" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3015919, 48.7949367]
 			},
 			"busses": [
@@ -1685,20 +1520,6 @@
 				}
 			],
 			"properties": { "name": "Dampierre" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.2980425, 48.8063274]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Pierre Semard" }
 		},
 		{
 			"type": "Feature",
@@ -1741,48 +1562,6 @@
 				}
 			],
 			"properties": { "name": "Rue Étienne Dolet" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.2920438, 48.8188403]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Gare de Vanves-Malakoff" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3086293, 48.7848832]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Clemenceau" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3041954, 48.7851558]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Les Blagis" }
 		},
 		{
 			"type": "Feature",
@@ -1858,48 +1637,6 @@
 			"type": "Feature",
 			"geometry": {
 				"type": "Point",
-				"coordinates": [2.3157572, 48.7927217]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Les Blains" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3111465, 48.7864688]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Les Bas Coquarts" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3104545, 48.7885629]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Frères Lumière" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
 				"coordinates": [2.3042903, 48.7876688]
 			},
 			"busses": [
@@ -1923,34 +1660,6 @@
 				}
 			],
 			"properties": { "name": "Albert Petit" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3144403, 48.7899837]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Port Galand" }
-		},
-		{
-			"type": "Feature",
-			"geometry": {
-				"type": "Point",
-				"coordinates": [2.3207611, 48.7938063]
-			},
-			"busses": [
-				{
-					"direction": "Pont Royal RER (Bagneux)",
-					"line_number": "391"
-				}
-			],
-			"properties": { "name": "Bagneux - Pont Royal RER" }
 		},
 		{
 			"type": "Feature",

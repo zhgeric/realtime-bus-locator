@@ -1,0 +1,178 @@
+[
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3004567, 48.79738] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Rue Froide" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3015919, 48.7949367] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Dampierre" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2980425, 48.8063274] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Pierre Semard" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3010181, 48.7997857] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Pluchet" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2998224, 48.8117628] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Maison Blanche" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2971352, 48.8143335] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Rue Étienne Dolet" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2920438, 48.8188403] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Gare de Vanves-Malakoff" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3086293, 48.7848832] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Clemenceau" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3041954, 48.7851558] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Les Blagis" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2948226, 48.8168964] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Paul Bert" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3061784, 48.7929512] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Porte-d'en-Bas" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3057177, 48.7949897] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Mathurins" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3038597, 48.791597] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Sentier des Brugnauts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3040265, 48.789538] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Fontaine Gueffier" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3157572, 48.7927217] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Les Blains" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3111465, 48.7864688] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Les Bas Coquarts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3104545, 48.7885629] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Frères Lumière" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3042903, 48.7876688] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Cuverons" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3179459, 48.7959173] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Albert Petit" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3144403, 48.7899837] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Port Galand" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3207611, 48.7938063] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Bagneux - Pont Royal RER" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3214355, 48.7956083] },
+		"busses": [
+			{ "direction": "Pont Royal RER (Bagneux)", "line_number": "391" }
+		],
+		"properties": { "name": "Marcel Bonnet" }
+	}
+]

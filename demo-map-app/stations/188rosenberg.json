@@ -1,0 +1,122 @@
+[
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3253592, 48.8184842] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Gabriel Péri" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3257247, 48.8135324] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Léon Gambetta" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.326306, 48.8088517] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Vache Noire" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.323088, 48.8052347] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Jean-Marin Naudin" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3026384, 48.7975695] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Rosenberg" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3179866, 48.8004338] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Cosson - Longuet" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3247844, 48.8218544] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Porte d'Orléans" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3086281, 48.785012] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Clemenceau" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3107211, 48.7858041] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Les Bas Coquarts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3169332, 48.795648] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Albert Petit" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3154635, 48.7926157] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Les Blains" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3172604, 48.7974557] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Pasteur - Meuniers" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3141604, 48.7898595] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Port Galand" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3026993, 48.7863076] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Les Blagis - Gabriel Péri" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2991373, 48.792033] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Collège Romain Rolland" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3008513, 48.7892022] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Rue des Brugnauts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3207571, 48.8041067] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Gustave Courbet - Métro" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3037299, 48.785316] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Les Blagis" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3184934, 48.8017565] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Martyrs de Châteaubriant - Métro" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3015464, 48.7956175] },
+		"busses": [{ "direction": "Rosenberg", "line_number": "188" }],
+		"properties": { "name": "Dampierre" }
+	}
+]

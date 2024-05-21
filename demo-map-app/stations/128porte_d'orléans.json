@@ -1,0 +1,128 @@
+[
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2840266, 48.7789646] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Cimetière de Sceaux" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2813706, 48.7795867] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Robinson RER" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2879403, 48.7787369] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Mairie de Sceaux" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2918339, 48.7791454] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Fontenay-Houdan" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2935825, 48.7818777] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Rue du Lycée" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2935036, 48.7847106] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Gambetta" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2935272, 48.7877813] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Fontenay-aux-Roses RER" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.292149, 48.7906766] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Château Sainte-Barbe" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.2966699, 48.7932284] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Sentier des Lilas" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3013027, 48.7955036] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Dampierre" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.302258, 48.7973315] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Rosenberg" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3050905, 48.7987691] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Hôtel de Ville de Bagneux" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3089494, 48.8005136] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Rue de l'Égalité" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3111311, 48.8022776] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Pasteur" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3142588, 48.8065463] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Jean-Marin Naudin" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3169652, 48.8099643] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Barbara" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3159703, 48.812384] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Boileau" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3180174, 48.8158311] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Verdier-République" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3203559, 48.8195632] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Mairie de Montrouge" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3214127, 48.8210105] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Cimetière de Montrouge" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3241641, 48.8222786] },
+		"busses": [{ "direction": "Porte D'Orléans", "line_number": "128" }],
+		"properties": { "name": "Porte d'Orléans-Métro" }
+	}
+]

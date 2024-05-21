@@ -1,0 +1,128 @@
+[
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3004567, 48.79738] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Rue Froide" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3257549, 48.818139] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Gabriel Péri" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3256126, 48.8213051] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Porte d'Orléans" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3267709, 48.8110001] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Vache Noire" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3260836, 48.8136253] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Léon Gambetta" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3176176, 48.7980834] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Pasteur - Meuniers" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3232823, 48.8051271] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Jean-Marin Naudin" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3026384, 48.7975695] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Rosenberg" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3181137, 48.8000343] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Cosson - Longuet" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3086293, 48.7848832] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Clemenceau" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3041954, 48.7851558] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Les Blagis" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3157572, 48.7927217] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Les Blains" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3172817, 48.7961415] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Albert Petit" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3144403, 48.7899837] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Port Galand" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.298908, 48.7920719] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Collège Romain Rolland" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3115265, 48.7861662] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Les Bas Coquarts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3010495, 48.788534] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Rue des Brugnauts" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3208603, 48.8039629] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Gustave Courbet - Métro" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.318742, 48.8018183] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Martyrs de Châteaubriant - Métro" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3001464, 48.7952002] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Dampierre" }
+	},
+	{
+		"type": "Feature",
+		"geometry": { "type": "Point", "coordinates": [2.3015464, 48.7956175] },
+		"busses": [{ "direction": "Porte d'Orléans", "line_number": "188" }],
+		"properties": { "name": "Dampierre" }
+	}
+]

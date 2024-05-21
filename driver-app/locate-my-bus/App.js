@@ -67,7 +67,7 @@ export default function App() {
 					direction: direction,
 				},
 			});
-      socket.emit('chat message', currentLocation)
+			socket.emit("location", currentLocation);
 		};
 
 		const destination = await Location.watchPositionAsync(
